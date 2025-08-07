@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VIVIDUS Report</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="plugin/vividus-step-formatting/styles.css">
+    <link rel="stylesheet" type="text/css" href="plugin/brand-logo/styles.css">
+    <link rel="stylesheet" type="text/css" href="plugin/brand-title/styles.css">
+</head>
+<body>
+    <div id="alert"></div>
+    <div id="content">
+        <span class="spinner">
+            <span class="spinner__circle"></span>
+        </span>
+    </div>
+    <div id="popup"></div>
+    <script src="app.js"></script>
+    <script src="plugin/behaviors/index.js"></script>
+    <script src="plugin/custom-translations/index.js"></script>
+    <script src="plugin/layout-configuration/index.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FVWC4GKEYS', {
+          'allureVersion': '2.34.0',
+          'reportUuid': 'dc7dea11-be05-457e-b973-c73ecbacfac2',
+          'single_file': false
+        });
+    </script>
+</body>
+</html>
